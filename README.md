@@ -3,6 +3,8 @@
 Win32 GUI wrapper for cjpegli — batch JPEG optimizer with metadata preservation,
 dark theme, slider controls, and support for many input formats. Sort of rewrite of https://github.com/rudolphos/Jpegli-image-optimizer on C for windows.
 
+<img width="638" height="642" alt="jpegli-gui" src="https://github.com/user-attachments/assets/21f0cd7e-4ffe-424f-81f7-c7c5e0fc5df6" />
+
 ## What is JPEGLI?
 
 [JPEGLI](https://github.com/google/jpegli) is an advanced JPEG coding library
@@ -54,6 +56,8 @@ This GUI wraps it for convenient batch processing.
 ## Auto-Optimize
 
 Though author of original Python-based GUI says, that their auto-optimize method does it's work without perceptible visual quality loss, it's not completely true. The method is really saves details, but may harm noises or noisy-like details, which are, though, noticeable if you're like to zoom your photos. So, if you want to save almost all details, use 95% quality. If You don't care about details much, auto-optimize will do it's work fine for you. Here's showcase:
+
+<img width="765" height="192" alt="jpegli compression methods showcase" src="https://github.com/user-attachments/assets/20a9015d-4e8b-4e45-b460-0bdfd912ba96" />
 
 When the **Auto-optimize** checkbox is checked, the program analyzes the input
 image before encoding and predicts an optimal `--distance` value, overriding
