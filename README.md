@@ -3,7 +3,7 @@
 Win32 GUI wrapper for cjpegli — batch JPEG optimizer with metadata preservation,
 dark theme, slider controls, and support for many input formats. Sort of rewrite of https://github.com/rudolphos/Jpegli-image-optimizer on C for windows.
 
-<img width="638" height="642" alt="jpegli-gui" src="https://github.com/user-attachments/assets/21f0cd7e-4ffe-424f-81f7-c7c5e0fc5df6" />
+<img width="641" height="670" alt="{38E6EB7B-ED41-4835-B682-15C9D14FF375}" src="https://github.com/user-attachments/assets/f9c50730-1b16-4139-b43a-7d49abb97cc8" />
 
 ## What is JPEGLI?
 
